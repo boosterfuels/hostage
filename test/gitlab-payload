@@ -1,0 +1,8 @@
+{
+  "repository": {
+    "name": "test-repo",
+    "url": "git@git.blacklitelabs.com:blacklite-labs/test-repo.git",
+    "description": "",
+    "homepage": "http://git.blacklitelabs.com/blacklite-labs/test-repo"
+  }
+}

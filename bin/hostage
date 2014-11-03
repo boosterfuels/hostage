@@ -1,0 +1,21 @@
+#!/usr/bin/env node
+'use strict';
+
+process.bin = process.title = 'hostage';
+
+var commands = require('../lib/commands');
+var _ = require('lodash');
+var yargs = require('yargs')
+  .usage('Manage Git(Hub/Lab) repository webhooks.\n\nUsage: $0')
+  .example('$0 start [-pr]', 'start the Hostage server on optional port (-p) and route (-r)')
+  .example('$0 stop', 'stop the Hostage server')
+  .example('$0 restart', 'restart the Hostage server. Reads ~/.hostage-rc')
+  .example('$0 add [-rd]', 'add a new webhook handler for required repo (-r) with local directory (-d)')
+  .demand(1);
+
+var cmd = commands[yargs.argv._[0]];
+if (cmd) {
+  cmd();
+} else {
+  yargs.showHelp();
+}

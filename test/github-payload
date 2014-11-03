@@ -1,0 +1,12 @@
+{
+  "repository": {
+    "id": 23482862,
+    "name": "test-repo",
+    "full_name": "diegonetto/test-repo",
+    "owner": {
+      "name": "diegonetto",
+      "email": "diegormnetto@gmail.com"
+    },
+    "ssh_url": "git@github.com:diegonetto/test-repo.git"
+  }
+}
