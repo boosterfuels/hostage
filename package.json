@@ -1,6 +1,6 @@
 {
   "name": "hostage",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "description": "Run commands on a hosting server in response to Git(Hub/Lab) webhooks",
   "keywords": [
     "hosting",
