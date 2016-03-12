@@ -34,7 +34,7 @@
     "express": "^4.10.1",
     "forever": "^0.12.0",
     "fs-extra": "^0.12.0",
-    "lodash": "^2.4.1",
+    "lodash": "4.6.1",
     "yargs": "^1.3.2"
   },
   "devDependencies": {
