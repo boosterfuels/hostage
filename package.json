@@ -9,17 +9,16 @@
     "nodejs",
     "webhooks"
   ],
-  "homepage": "https://github.com/diegonetto/hostage",
-  "bugs": "https://github.com/diegonetto/hostage/issues",
+  "homepage": "https://github.com/boosterfuels/hostage",
+  "bugs": "https://github.com/boosterfuels/hostage/issues",
   "author": {
     "name": "Diego Netto",
-    "email": "diegormnetto@gmail.com",
-    "url": "https://github.com/diegonetto"
+    "url": "https://github.com/boosterfuels"
   },
   "main": "lib",
   "repository": {
     "type": "git",
-    "url": "git@github.com:diegonetto/hostage.git"
+    "url": "https://github.com/boosterfuels/hostage.git"
   },
   "bin": {
     "hostage": "bin/hostage"
