@@ -6,10 +6,15 @@ module.exports = function (grunt) {
 
   grunt.initConfig({
     pkg: grunt.file.readJSON('package.json'),
-    changelog: {
+    conventionalChangelog: {
       options: {
-        dest: 'CHANGELOG.md',
-        versionFile: 'package.json'
+        changelogOpts: {
+          preset: 'angular',
+          outputUnreleased: true
+        }
+      },
+      release: {
+        src: 'CHANGELOG.md'
       }
     },
     release: {
