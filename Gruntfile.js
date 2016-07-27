@@ -60,5 +60,5 @@ module.exports = function (grunt) {
     }, grunt.task.current.async());
   });
 
-  grunt.registerTask('default', ['bump', 'changelog', 'stage', 'release']);
+  grunt.registerTask('default', ['bump', 'conventionalChangelog', 'stage', 'release']);
 };
