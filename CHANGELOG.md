@@ -1,3 +1,13 @@
+<a name="0.2.3"></a>
+## [0.2.3](https://github.com/boosterfuels/hostage/compare/v0.2.2...v0.2.3) (2016-08-04)
+
+
+### Features
+
+* add ability to specify cwd for each branch ([ec25df0](https://github.com/boosterfuels/hostage/commit/ec25df0))
+
+
+
 <a name="0.2.2"></a>
 ## [0.2.2](https://github.com/boosterfuels/hostage/compare/v0.2.1...v0.2.2) (2016-07-27)
 
